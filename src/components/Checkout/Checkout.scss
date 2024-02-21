@@ -1,0 +1,109 @@
+.main-div {
+    background-color: #f5f5f5;
+
+    .back-arrow {
+        margin: 3%;
+        width: 5%;
+    }
+
+    .checkout {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .ms-DocumentCard {
+            display: flex;
+            flex-direction: row;
+
+            background-color: #fff;
+            margin: 2%;
+            border: 1px solid #e0e0e0;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            min-width: 80%;
+            align-items: center;
+
+            .ms-DocumentCardDetails {
+                .ms-DocumentCardTitle {
+                    font-weight: 700;
+                    font-size: xx-large;
+                    text-align: left;
+                }
+
+                .price {
+                    font-size: x-large;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                    padding: 16px;
+                }
+            }
+        }
+
+        .total-cost {
+            font-size: xx-large;
+        }
+    }
+
+    .second-div {
+        align-items: center;
+        align-content: center;
+        text-align: center;
+
+        .fui-Input__contentBefore.r1572tok {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            background-color: white;
+            padding: 2px;
+            min-height: 4vh;
+            font-size: x-large;
+            align-items: center;
+        }
+
+        .fui-Input__input.rvp2gzh {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            background-color: white;
+            padding: 2px;
+            border-left: 0px;
+            min-height: 4vh;
+            font-size: x-large;
+        }
+
+        .form-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .fui-Input.r1jtohuq.___1v9icnz_137yv9i.fvcxoqz.f1ub3y4t.f1l4zc64.f1m52nbi.f8vnjqi.fz1etlk.f1klwx88.f1hc16gm {
+            max-width: 80vw;
+            min-width: 50vw;
+            min-height: 5vh;
+        }
+
+        .order-button {
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: xx-large;
+            background-color: #97b3d1;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .order-button:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        .thank-you {
+            font-weight: 900;
+            font-size: xx-large;
+        }
+    }
+}

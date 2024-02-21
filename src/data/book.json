@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "One Day",
+    "description": "It’s 1988 and Dexter Mayhew and Emma Morley have only just met. But after only one day together, they cannot stop thinking about one another. Over twenty years, snapshots of that relationship are revealed on the same day—July 15th—of each year. Dex and Em face squabbles and fights, hopes and missed opportunities, laughter and tears. And as the true meaning of this one crucial day is revealed, they must come to grips with the nature of love and life itself.",
+    "price": 19.99,
+    "imageUrl": "/book1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The fault in our stars",
+    "description": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel’s story is about to be completely rewritten.",
+    "price": 24.99,
+    "imageUrl": "/book2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "And to My Nephew Albert I Leave the Island What I Won off Fatty Hagan in a Poker Game",
+    "description": "Foul Rock is a tiny speck only seventy meters wide and one hundred and forty meters long, just off the coast of England. When he first sets foot on his inheritance, Albert quickly realises that there is absolutely nothing there, nothing except for the frequent presence of Victoria, a very attractive young girl in search of a suntan. Just as the two are getting to know each other better, a Russian trawler (spy ship) runs aground on the Island. The other side of the Island is soon occupied by the United States Marines and Victoria and Albert find themselves caught up in a precarious and hilarious Cold War stand off.",
+    "price": 15.99,
+    "imageUrl": "/book3.png"
+  },
+  {
+    "id": 4,
+    "title": "Twilight",
+    "description": "When Isabella Swan moves to the gloomy town of Forks and meets the mysterious, alluring Edward Cullen, her life takes a thrilling and terrifying turn. With his porcelain skin, golden eyes, mesmerizing voice, and supernatural gifts, Edward is both irresistible and impenetrable. Up until now, he has managed to keep his vampire identity hidden, but Bella is determined to uncover his dark secret.",
+    "price": 23.99,
+    "imageUrl": "/book4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Great Gatsby",
+    "description": "Enter the dazzling world of F. Scott Fitzgerald's The Great Gatsby, a tale of wealth, ambition, and the elusive American Dream. Set in the opulent 1920s, the story follows Jay Gatsby, a self-made millionaire, who pursues his unattainable love, Daisy Buchanan. Amidst extravagant parties and societal excess, Fitzgerald weaves a narrative of love, betrayal, and the dark undercurrents of the Jazz Age. Through vivid prose and complex characters, the novel explores themes of disillusionment, class divide, and the relentless pursuit of an idealized past. With its timeless exploration of human desires and the consequences of unchecked ambition, The Great Gatsby remains a literary masterpiece that resonates across generations. A mesmerizing portrayal of the Roaring Twenties' decadence. Intricate character study of love, ambition, and disillusionment. Fitzgerald's evocative prose transports readers to a bygone era. A critique of the American Dream's elusive allure. A classic that captures the essence of a tumultuous era.",
+    "price": 32.99,
+    "imageUrl": "/book5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Don Quixote",
+    "description": "Nominated as one of America's best-loved novels by PBS's The Great American Read Don Quixote has become so entranced reading tales of chivalry that he decides to turn knight errant himself. In the company of his faithful squire, Sancho Panza, these exploits blossom in all sorts of wonderful ways. While Quixote's fancy often leads him astray--he tilts at windmills, imagining them to be giants--Sancho acquires cunning and a certain sagacity. Sane madman and wise fool, they roam the world together-and together they have haunted readers' imaginations for nearly four hundred years. With its experimental form and literary playfulness, Don Quixote has been generally recognized as the first modern novel. This Penguin Classics edition, with its beautiful new cover design, includes John Rutherford's masterly translation, which does full justice to the energy and wit of Cervantes's prose, as well as a brilliant critical introduction by Roberto Gonzalez Echevarri .",
+    "price": 11.99,
+    "imageUrl": "/book6.jpg"
+  }
+]

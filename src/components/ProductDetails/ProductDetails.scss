@@ -1,0 +1,112 @@
+$minWidth: 1024px;
+$maxWidth: 1023px;
+
+.book-title {
+    text-align: center;
+}
+
+.product-details-shown {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+
+    .book-image {
+        padding-right: 30%;
+        padding-left: 30%;
+    }
+
+    @media screen and (min-width: $minWidth) {
+        .for-price {
+            font-weight: 600;
+            text-align: right;
+            font-size: x-large;
+        }
+
+        .spinButtonWrapper-101 {
+            margin-top: 2%;
+        }
+
+        .ms-spinButton-input.input-102 {
+            font-size: large;
+        }
+
+        .description {
+            font-size: medium;
+        }
+    }
+
+    @media screen and (max-width: $maxWidth) {
+        .for-price {
+            font-weight: 600;
+            text-align: right;
+            font-size: 48px;
+        }
+
+        .spinButtonWrapper-101 {
+            margin-top: 2%;
+            height: 60px
+        }
+
+        .ms-spinButton-input.input-102 {
+            font-size: xx-large;
+        }
+
+        .description {
+            font-size: larger;
+        }
+    }
+
+
+    .for-spin-button {
+        margin: 5%;
+    }
+
+    .add-to-cart {
+        padding: 2%;
+        background-color: white;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #97b3d1;
+        font-size: x-large;
+    }
+
+    .add-to-cart:hover {
+        background-color: blue;
+        color: white;
+    }
+
+    .close-modal-button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        float: right;
+        font-size: x-large;
+    }
+
+    .choose-option {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2px;
+
+        .choose-option-buttons {
+            padding: 8px;
+            margin: 8px;
+            border-radius: 3px;
+            border: none;
+            background-color: #97b3d1;
+            cursor: pointer;
+            width: 85%;
+            font-size: xx-large;
+        }
+
+        .choose-option-buttons:hover {
+            background-color: blue;
+            color: white;
+        }
+    }
+}

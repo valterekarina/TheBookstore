@@ -1,0 +1,110 @@
+$minWidth: 1024px;
+$maxWidth: 1023px;
+
+.main-div {
+    background-color: #f5f5f5;
+
+    .button-back {
+        all: unset;
+        width: 80%;
+    }
+
+    .cart {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .ms-DocumentCard {
+            display: flex;
+            flex-direction: row;
+
+            background-color: #fff;
+            margin: 2%;
+            border: 1px solid #e0e0e0;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            min-width: 80%;
+            align-items: center;
+
+            @media screen and (min-width: $minWidth) {
+                .spinButtonWrapper-101 {
+                    margin-top: 2%;
+                }
+
+                .ms-spinButton-input.input-102 {
+                    font-size: large;
+                }
+            }
+
+            @media screen and (max-width: $maxWidth) {
+
+                .spinButtonWrapper-101 {
+                    margin-top: 2%;
+                    height: 45px
+                }
+
+                .ms-spinButton-input.input-102 {
+                    font-size: x-large;
+                }
+            }
+
+            .ms-DocumentCardDetails {
+                text-align: left;
+
+                .ms-DocumentCardTitle {
+                    font-weight: 700;
+                    font-size: xx-large;
+                }
+
+                .price {
+                    font-size: x-large;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                    padding: 16px;
+                }
+            }
+
+            .card-div {
+                margin-right: 3%;
+                margin-bottom: 15%;
+
+                .delete-button {
+                    border: none;
+                    background-color: transparent;
+                    float: right;
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: larger;
+                }
+            }
+
+            .for-spin-button {
+                margin-left: 50%;
+                margin-right: 5%;
+                margin-top: 15%;
+            }
+        }
+    }
+
+    .checkout-div {
+        margin: 2%;
+        text-align: center;
+
+        .checkout-button {
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: xx-large;
+            background-color: #97b3d1;
+            margin: 10px;
+        }
+
+        .checkout-button:hover {
+            background-color: blue;
+            color: white;
+        }
+    }
+}
